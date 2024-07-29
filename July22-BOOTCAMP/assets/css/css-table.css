@@ -1,0 +1,15 @@
+table, th, td{
+  border: 5px solid red;
+  border-collapse: collapse;
+  /* border-collapse: separate; */
+  /* border-spacing: 10px; */
+
+}
+
+th{
+  background: black;
+  color: white;
+}
+td{
+  background-color: pink;
+}

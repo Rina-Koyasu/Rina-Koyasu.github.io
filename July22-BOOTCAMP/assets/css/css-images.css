@@ -1,0 +1,32 @@
+img{
+  height: 30%;
+  width: 30%;
+}
+body{
+  /* background-image: url('../images/rabbit3.jpeg'); */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat; */
+  /* cover resize the background image to cover the entire container even if it has to strech the image or cut a little bit off one of the edge */
+  /* background-size: cover; */
+/* resize the background image to make sure the image is fully*/
+  /* background-size: contain; */
+}
+
+#box-1{
+  height: 200px;
+  background-image: url('../images/rabbit3.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* left top, left center, left bottom, center top, center center */
+
+  background-attachment: fixed;
+/* fixe - picture not moving if you scroll up and down
+scroll - picture moves up and down */
+
+/* background:bg-color bg-image bg-repeat bg-attachment bg-position  */
+ /* backbround: yellow; */
+border: 1px solid black;
+}

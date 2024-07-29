@@ -1,0 +1,38 @@
+.card {
+  width: 50%;
+}
+
+.male {
+  width: 48%;
+  float: left;
+  box-shadow: 2px 2px 10px #666;
+  margin-right: 4%;
+}
+
+.female {
+  width: 48%;
+  float: left;
+  box-shadow: 2px 2px 10px #666;
+  border-radius: 10px 10px 0 0;
+}
+
+.male img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.female img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.c-name {
+  padding-left: 15px;
+}
+
+h2 {
+  font-weight: bold;
+}
